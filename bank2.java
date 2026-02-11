@@ -44,9 +44,7 @@ public class bank2{
     int deposite=sc.nextInt();
     System.out.println("Enter withdraw: ");
     int withdraw=sc.nextInt();
-    
     bank s=new bank(accno,name,balance,deposite,withdraw);
-    
     s.disp();
     s.deposite();
     s.withdraw();
